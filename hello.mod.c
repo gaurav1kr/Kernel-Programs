@@ -20,7 +20,7 @@ __section(.gnu.linkonce.this_module) = {
 };
 
 #ifdef CONFIG_RETPOLINE
-MODULE_INFO(retpoline, "Y");
+MODULE_INFO(retpoline, "N");
 #endif
 
 static const struct modversion_info ____versions[]
